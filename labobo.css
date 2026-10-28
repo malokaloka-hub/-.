@@ -11,7 +11,10 @@ body {
 
 /* Envelope Screen */
 #envelope-container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -32,6 +35,15 @@ body {
 #envelope {
     width: 300px;
     animation: pulse 1.5s infinite;
+    cursor: pointer;
+}
+#musicButton {
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: transparent;
+    color: deeppink;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
