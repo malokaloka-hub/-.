@@ -5,6 +5,13 @@ const yesBtn = document.querySelector(".yes-btn");
 const title = document.getElementById("letter-title");
 const catImg = document.getElementById("letter-cat");
 const finalText = document.getElementById("final-text");
+const music = document.getElementById("bgMusic");
+const button = document.getElementById("musicButton");
+
+    button.addEventListener("click", function () {
+        music.play();
+        button.textContent = "♫ ";
+    });
 
 // Click Envelope
 envelope.addEventListener("click", () => {
